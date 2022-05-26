@@ -21,6 +21,9 @@ public class GitHubPageTest {
 
     @Test
     void mainGitHubWikiTest() {
-        ghp.openGHPage().goToGHWiki().checkPagesList().checkJUnit5Example();
+        ghp.openGHPage()
+           .goToGHWiki()
+           .checkPagesList()
+           .checkJUnit5Example();
     }
 }
